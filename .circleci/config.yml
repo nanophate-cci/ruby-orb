@@ -7,7 +7,7 @@ orbs:
 jobs:
   rerun-true:
     docker:
-      - image: cimg/ruby:2.7.4-browsers
+      - image: cimg/ruby:2.7.4
     parallelism: 4
     steps:
       - checkout
